@@ -1,0 +1,14 @@
+---
+topics:
+ - mid-career
+---
+
+Regarding the lack of women in technical careers, I've noticed a certain attitude that goes like this: tech careers are very demanding, and women, especially if they have families, just aren't willing to put in the hard work and long hours that are necessary in a competitive industry.  
+
+I can see how this seems logical, and family priorities likely factor in to some extent, but my gut says there must be more to it.   And, there are some interesting studies which support my gut.  I have to admit that reading through these freaks me out a little.  I hadn't realized that an alarming number of women drop out of technical careers after they've reached the ten year mark.  I'd assumed that getting started was more than half the battle.
+
+The Harvard Business Review's Athena Factor project doesn't appear to be available for free online, but it's summarized in <a href="http://www.computerworld.com/s/article/319212/Why_Women_Quit_Technology?taxonomyId=10&amp;pageNumber=2">Why Women Leave Computing Careers</a>.  The study compiled a list of "antigens" which are factors that drive women out.   Read all about them in the article!
+
+A related study of mid-career women is <a href="http://anitaborg.org/files/Climbing_the_Technical_Ladder.pdf">Climbing the Technical Ladder</a>.  This is long and goes into a lot of interesting detail.
+
+I'm glad to have found these, because they validate certain niggling feelings while at the same time serve as inspiration to avoid becoming a statistic.
