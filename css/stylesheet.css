@@ -212,7 +212,7 @@ img.border {
 
 #sidebar {
     margin-bottom: 2em;
-    padding: 0.5em;
+    padding: .5em;
     overflow: hidden;
 }
 
@@ -220,7 +220,7 @@ img.border {
     margin: 0;
     padding: 0 0 0 25px;
     list-style: none;
-    line-height: normal;
+    line-height: 1.8;
     border-left: 1px solid #E5E1D8;
 }
 
