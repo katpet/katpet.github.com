@@ -273,11 +273,11 @@ img.border {
     clear: both;
     font-size: 11px;
     border-bottom: 1px solid #E5E1D8;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
  
 .item_meta {
-    padding-bottom: 35px;
+    padding-bottom: 30px;
 }
 
 .item_comments {
