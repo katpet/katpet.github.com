@@ -15,8 +15,8 @@ title: katrin's blog
   <div class="item_meta">
    <div class="item_tags">
       Tags: 
-      {% for topic in post.topics %}
-      <a href="http://katpet.github.com/tags/{{ topic }}.html" title="View posts tagged with &quot;{{ topic }}&quot;">{{ topic }}</a>{% if forloop.last != true %}, {% endif %}
+      {% for category in post.categories %}
+      <a href="/tags/{{ category }}.html" title="View posts tagged with &quot;{{ category }}&quot;">{{ category }}</a>{% if forloop.last != true %}, {% endif %}
         {% endfor %}
     </div>
  </div>
