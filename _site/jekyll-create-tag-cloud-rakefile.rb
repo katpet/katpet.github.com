@@ -1,0 +1,35 @@
+
+puts 'Generating tag cloud...'
+require 'rubygems'
+require 'jekyll'
+include Jekyll::Filters
+
+options = Jekyll.configuration({})
+site = Jekyll::Site.new(options)
+site.read_posts('')
+
+html =<<-HTML
+---
+layout: default
+title: Tag cloud
+---
+
+<h1>Tag cloud</h1>
+
+    HTML
+
+site.categories.sort.each do |category, posts|
+  html << <<-HTML
+      HTML
+      
+  s = posts.count
+  font_size = 12 + (s*1.5);
+  html << "<a href=\"/tags/#{category}.html\" title=\"Postings tagged #{category}\" style=\"font-size: #{font_size}px; line-height:#{font_size}px\">#{category}</a> "
+end
+
+File.open('tags.html', 'w+') do |file|
+  file.puts html
+end
+
+puts 'Done.'
+
